@@ -90,13 +90,13 @@ body{
 
 .right_side{
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    top: 600px;
+    right: 10px;
     padding: 25px;
 }
 
 .right_side img{
-    height: 320px;
+    height: 300px;
 }
 
 .hexagon_menu{
@@ -222,9 +222,28 @@ body{
     visibility: visible;
 }
 
+
+#img3_11{
+    display: none;
+}
+
+
+@media (max-width: 1777px){
+    .right_side{
+        display: none;
+    }
+}
+
 @media (max-width: 1450px){
     .black_header{
         height: 200px;
+    }
+
+    #img3_1{
+        display: none;
+    }
+    #img3_11{
+        display: block;
     }
 
     .container{

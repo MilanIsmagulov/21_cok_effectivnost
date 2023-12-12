@@ -45,7 +45,7 @@ body{
 	padding-right: 25px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width: 15%;
+	width: 20%;
 	
 }
 
@@ -78,7 +78,7 @@ body{
 	padding-right: 30px;
 	border: solid 2px;
 	border-radius: 35px;
-
+	text-wrap: nowrap !important;
 	margin-left: 25px;
 	transition: all 0.3s;
 }
@@ -87,9 +87,56 @@ body{
 		transition: all 0.3s;
 		background-color: white;
 		color: black;
+
 }
 
 
+
+p{
+    font-size: clamp(20px,2vw,30px) !important;
+}
+
+.theory_eom{
+    height: initial !important;
+    font-size: clamp(20px,2vw,30px) !important;
+    overflow: hidden;
+    padding-left: 28px !important;
+}
+
+.theory_eom img{
+    height: auto !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0px 35px !important;
+
+    border-radius: 25px !important;
+    object-fit: contain !important;
+    width: 50% !important;
+}
+
+.black_header{
+    height: initial !important;
+}
+
+.black_header a{
+    text-wrap: nowrap !important;
+}
+
+.img_g{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+}
+
+.theory_eom img{
+    width: 100% !important;
+    margin: 0 auto !important; 
+}
+
+.step_marker_and_buttons{
+    padding-bottom: 50px !important;
+}
 
 .button_part{
 	display: flex;
@@ -192,7 +239,7 @@ body{
 
 	.item, .item2, .item3, .item4 {
 	font-size: 1em;
-	  width: 160px;
+	  width: 225px !important;
 	  margin: 5px;
 	}
 	
@@ -200,4 +247,152 @@ body{
 		width: 30%;
 		margin: 25px;
 	}
+}
+
+p{
+    font-size: clamp(20px,2vw,30px) !important;
+}
+
+.theory_eom{
+    height: initial !important;
+    font-size: clamp(20px,2vw,30px) !important;
+    overflow: hidden;
+    padding-left: 28px !important;
+}
+
+.theory_eom img{
+    height: auto !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0px 35px !important;
+
+    border-radius: 25px !important;
+    object-fit: contain !important;
+    width: 50% !important;
+}
+
+.black_header{
+    height: initial !important;
+}
+
+.black_header a{
+    text-wrap: nowrap !important;
+}
+
+.img_g{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+}
+
+.theory_eom img{
+    width: 100% !important;
+    margin: 0 auto !important; 
+}
+
+.step_marker_and_buttons{
+    padding-bottom: 50px !important;
+}
+
+.image_with_text{
+    margin: 0 !important;
+}
+
+.popup_text{
+    height: 85% !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    text-align: start !important;
+}
+
+
+
+@media (max-width: 1180px) {
+    .step_markers{
+        left: initial !important;
+        top: initial !important;
+        bottom: initial !important;
+        right: initial !important;
+        position: relative !important;
+    }
+}
+
+p{
+    font-size: clamp(20px,2vw,30px) !important;
+}
+
+button{
+    margin: 3px !important;
+}
+
+.theory_eom{
+    height: initial !important;
+    font-size: clamp(20px,2vw,30px) !important;
+    overflow: hidden;
+    padding-left: 28px !important;
+}
+
+.theory_eom img{
+    height: auto !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0px 35px !important;
+
+    border-radius: 25px !important;
+    object-fit: contain !important;
+    width: 50% !important;
+}
+
+.black_header{
+    height: initial !important;
+}
+
+.black_header a{
+    text-wrap: nowrap !important;
+}
+
+.img_g{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+}
+
+.theory_eom img{
+    width: 100% !important;
+    margin: 0 auto !important; 
+}
+
+.step_marker_and_buttons{
+    padding-bottom: 50px !important;
+}
+
+.image_with_text{
+    margin: 0 !important;
+}
+
+.popup_text{
+    height: 85% !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    text-align: start !important;
+}
+
+
+.popup_text{
+    height: 85% !important;
+    overflow-y: auto;
+    scroll-snap-align: start;
+    padding: 15px;
+    align-items: flex-start !important;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.popup_content {
+    width: initial !important;
+    min-width: 400px !important;
+    max-width: 1700px !important;
+    height: clamp(300px,70vh,1000px) !important;
 }

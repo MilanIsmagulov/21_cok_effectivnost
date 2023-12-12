@@ -193,7 +193,7 @@ body{
     display: flex;
     align-items: center;
     border: solid 0px #00000080;
-    width: 1000px;
+    width: 100% !important;
     margin: 15px;
     height: 120px;
     border-radius: 25px;
@@ -273,7 +273,8 @@ margin-top: 75px;
 }
 
 .item{
-    width: 1000px;
+    font-size: 20px !important;
+    width: 100% !important;
 }
 
 
@@ -294,7 +295,7 @@ margin-top: 75px;
   .numbers{
     display: flex;
     flex-direction: column;
-    height: 48vh;
+    height: initial !important;
 
     justify-content: space-around;
   }

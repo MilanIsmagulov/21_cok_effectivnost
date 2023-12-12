@@ -75,10 +75,10 @@ let nameOfCol = document.createElement('span')
 let nameOfColDiv = document.createElement('div')
 nameOfColDiv.classList.add('spandivcol')
 nameOfCol.classList.add('spancol')
-nameOfCol.innerHTML = 'Внутренняя'
+nameOfCol.innerHTML = 'Непроизводственные'
 let nameOfCol2 = document.createElement('span')
 nameOfCol2.classList.add('spancol', 'secondcol')
-nameOfCol2.innerHTML = 'Внешняя'
+nameOfCol2.innerHTML = 'Промышленно-производственные'
 nameColPlc.appendChild(nameOfColDiv)
 nameOfColDiv.appendChild(nameOfCol2)
 nameOfColDiv.appendChild(nameOfCol)
@@ -120,7 +120,7 @@ function createList2() {
 
     addEventListeners2();
     console.log(localStorage)
-
+    window.location.reload()
 }
 
 function loadList2() {
