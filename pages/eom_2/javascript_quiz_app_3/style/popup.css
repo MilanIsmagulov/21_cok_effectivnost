@@ -36,6 +36,10 @@
     margin-left: 25px;
 }
 
+.spancol{
+    height: 82px;
+}
+
 .popup_method_list li::marker{
     font-size: 30px;
     color: rgb(0, 112, 192);
